@@ -29,7 +29,7 @@ const FindIdWrapper = styled.div`
     padding: 20px;
     border-radius: 12px;
     width: 85%;
-    height: 25%;
+    height: 35%;
     text-align: center;
   }
   /* 반응형 추가 */

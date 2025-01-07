@@ -63,8 +63,21 @@ export const RegistrationForm = styled.div`
   flex-direction: column;
   align-items: center;
 
+  @media only screen and (max-width: 600px) {
+    color: #078675;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   form {
     width: 100%;
+
+    @media only screen and (max-width: 600px) {
+    width: 300px;
+  }
   }
 
   form input {
@@ -77,6 +90,18 @@ export const RegistrationForm = styled.div`
     padding-left: 20px;
     font-size: 1.1rem;
     margin-bottom: 3%;
+
+    @media only screen and (max-width: 600px) {
+      display: block;
+      border: 1px solid #078675;
+      width: 100%;
+      height: 3rem;
+      border-radius: 8px;
+      outline: none;
+      padding-left: 20px;
+      font-size: 1.1rem;
+      margin-bottom: 3%;
+      }
 
     &::placeholder {
       color: #cecece;

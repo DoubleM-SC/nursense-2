@@ -45,6 +45,22 @@ export const ContactWrapper = styled.div`
       font-family: "Pretendard";
       color: #078675;
       padding-left: 10px;
+      
+      @media only screen and (max-width: 600px) {
+        display: block;
+        width: 80vw;
+        height: 4vh;
+        border: 1px solid #078675;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border-radius: 5px;
+        outline: none;
+        font-size: 1.1rem;
+        font-family: "Pretendard";
+        color: #078675;
+        padding-left: 10px;
+      }
+      /* 반응형 추가 */
     }
 
     textarea {
@@ -61,6 +77,23 @@ export const ContactWrapper = styled.div`
       color: #078675;
       padding-left: 10px;
       padding-top: 10px;
+      
+      @media only screen and (max-width: 600px) {
+        display: block;
+        width: 80vw;
+        height: 20vh;
+        border: 1px solid #078675;
+        border-radius: 5px;
+        margin-top: 2%;
+        outline: none;
+        resize: none;
+        font-size: 1.1rem;
+        font-family: "Pretendard";
+        color: #078675;
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+      /* 반응형 추가 */
     }
   }
 `;
@@ -75,6 +108,20 @@ export const ContactSubmit = styled.button`
   font-family: "Pretendard";
   font-size: 1.2rem;
   transition: 0.3s;
+  
+  @media only screen and (max-width: 600px) {
+  width: 29vw;
+  height: 5vh;
+  margin-top: 10%;
+  background: none;
+  border: 2px solid #078675;
+  border-radius: 10px;
+  color: #078675;
+  font-family: "Pretendard";
+  font-size: 1.2rem;
+  transition: 0.3s;
+      }
+      /* 반응형 추가 */
 
   &:hover {
     color: #fff;

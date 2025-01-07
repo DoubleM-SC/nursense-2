@@ -40,6 +40,11 @@ const About1Wrapper = styled.div`
 const AboutLeft1Wrapper = styled.div`
   img {
     margin-top: 15%;
+    @media only screen and (max-width: 600px) {
+    margin-top: 15%;
+    height: 30px
+    }
+    /* 반응형 추가 */
   }
 `;
 

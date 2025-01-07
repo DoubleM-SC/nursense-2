@@ -21,6 +21,17 @@ export const LoginWrapper = styled.div`
       padding-left: 20px;
       outline: none;
       font-size: 1rem;
+
+      @media only screen and (max-width: 600px) {
+        width: 80%;
+        border: 1px solid #078675;
+        height: 5.5vh;
+        margin-bottom: 1%;
+        border-radius: 7px;
+        padding-left: 20px;
+        outline: none;
+        font-size: 1rem;
+      }
     }
 
     button {
@@ -38,6 +49,19 @@ export const LoginWrapper = styled.div`
       &:hover {
         cursor: pointer;
         background-color: #067264;
+      }
+
+      @media only screen and (max-width: 600px) {
+        width: 86%;
+        height: 5.5vh;
+        border: 1px solid #078675;
+        background-color: #078675;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1rem;
+        font-family: "Pretendard";
+        border-radius: 7px;
+        transition: 0.2s;
       }
     }
   }
@@ -64,11 +88,21 @@ export const PasswordWrapper = styled.div`
 export const PasswordToggle = styled.img`
   position: absolute;
   right: 40.3%;
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
   width: 30px;
   height: 25px;
+
+  @media only screen and (max-width: 600px) {
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+  }
 `;
 
 export const LoginSearchWrapper = styled.div`

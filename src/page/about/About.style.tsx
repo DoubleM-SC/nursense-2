@@ -1,45 +1,66 @@
 import styled, { keyframes } from "styled-components";
 
 export const fadeIn = keyframes`
-0% {
-  opacity: 0;
-}
-100% {
-  opacity: 1;
-}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 `;
 
 export const slideInFromLeft = keyframes`
-from {
-  transform: translateX(-100%);
-  opacity: 0;
-}
-to {
-  transform: translateX(0);
-  opacity: 1;
-}
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 `;
 
 export const AboutWrapper = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../bg/aboutBg.png");
   margin-top: 2%;
+  overflow-x: hidden;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 4%;
+  }
 `;
 
 export const About1Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const AboutLeft1Wrapper = styled.div`
   img {
     margin-top: 15%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    text-align: center;
   }
 `;
 
 export const AboutNsLogo = styled.img`
   animation: ${slideInFromLeft} 1.5s ease-in-out forwards;
+  max-width: 100%;
+  height: auto;
 `;
 
 export const About1Text = styled.div`
@@ -48,6 +69,14 @@ export const About1Text = styled.div`
     font-weight: 700;
     margin-top: 10%;
     margin-bottom: 5%;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.8rem;
+      text-align: center;
+      font-weight: 700;
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
   }
 
   span {
@@ -55,6 +84,12 @@ export const About1Text = styled.div`
     font-size: 1.5rem;
     color: #4a4a4a;
     font-weight: 500;
+
+    @media only screen and (max-width: 600px) {
+      font-weight: 500;
+      font-size: 1.2rem;
+      text-align: center;
+    }
   }
 
   button {
@@ -67,8 +102,13 @@ export const About1Text = styled.div`
     font-weight: 600;
     margin-top: 10%;
     margin-bottom: 5%;
-    &:hover {
-      cursor: pointer;
+    cursor: pointer;
+
+    @media only screen and (max-width: 600px) {
+      width: 80%;
+      font-size: 1rem;
+      display: block;
+      margin: 10% auto 5% auto;
     }
   }
 `;
@@ -76,11 +116,18 @@ export const About1Text = styled.div`
 export const AboutVideoWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   img {
     margin-bottom: 15%;
-    &:hover {
-      cursor: pointer;
-    }
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
   }
 `;
 
@@ -88,21 +135,52 @@ export const AboutRight1Wrapper = styled.div`
   img {
     margin-top: 28%;
     animation: ${fadeIn} 3s;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    img {
+      margin-top: 10%;
+    }
   }
 `;
 
 export const About2Wrapper = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../bg/aboutBg.png");
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    padding: 40px 0px;
+  }
+`;
+
+export const AboutRight2Wrapper = styled.div`
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 40px;
+  }
 `;
 
 export const AboutCardWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const AboutLeft2Wrapper = styled.div`
@@ -110,6 +188,11 @@ export const AboutLeft2Wrapper = styled.div`
     font-size: 4rem;
     margin-bottom: 0;
     color: #0094ff;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 2.5rem;
+      text-align: center;
+    }
   }
 
   .hapticEn {
@@ -117,11 +200,21 @@ export const AboutLeft2Wrapper = styled.div`
     color: #0094ff;
     margin-top: 2%;
     margin-bottom: 10%;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.2rem;
+      text-align: center;
+    }
   }
 
   p {
     font-size: 2rem;
     font-weight: 600;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.4rem;
+      text-align: center;
+    }
   }
 `;
 
@@ -135,16 +228,38 @@ export const AboutCard = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 5%;
+  padding: 20px;
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+    height: 25vh;
+    margin: 20px auto;
+  }
 
   p {
     font-size: 1.5rem;
     margin-bottom: 0;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 `;
 
 export const About3Wrapper = styled.div`
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
+  padding: 20px;
+
+  @media only screen and (max-width: 600px) {
+    min-height: auto;
+    padding: 0px;
+  }
 `;
 
 export const About3TitleWrapper = styled.div`
@@ -154,23 +269,14 @@ export const About3TitleWrapper = styled.div`
   span {
     font-size: 3rem;
     font-weight: 700;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.8rem;
+    }
   }
 
   span span {
     color: #078675;
-  }
-`;
-
-export const About3LogoWrapper = styled.div`
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      width: 12%;
-      margin: 0 20px;
-    }
   }
 `;
 
@@ -188,7 +294,7 @@ export const AboutReviewBox = styled.div`
   width: 20%;
   height: 100%;
   background-color: #f1f2f5;
-  margin: 0 30px;
+  margin: 0 40px;
   border-radius: 20px;
   padding: 30px;
 
@@ -196,5 +302,48 @@ export const AboutReviewBox = styled.div`
     font-size: 1.1rem;
     line-height: 28px;
     font-weight: 500;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+    margin: 30px 0;
+    padding: 20px;
+
+    span {
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+
+    span {
+      font-size: 0.9rem;
+      line-height: 22px;
+    }
+  }
+`;
+
+export const About3LogoWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 40px 0;
+
+  div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    img {
+      width: 90px;
+      height: auto;
+    }
   }
 `;

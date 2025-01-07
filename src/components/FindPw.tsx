@@ -29,7 +29,7 @@ const FindPwWrapper = styled.div`
     padding: 20px;
     border-radius: 12px;
     width: 85%;
-    height: 35%;
+    height: 45%;
     text-align: center;
   }
   /* 반응형 추가 */
