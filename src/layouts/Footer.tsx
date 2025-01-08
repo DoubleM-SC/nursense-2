@@ -113,7 +113,7 @@ const FooterWrapper = styled.div`
   font-size: 0.9rem;
   font-family: "Pretendard";
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     margin-top: 20%;
     width: 90%;
   }

@@ -27,7 +27,7 @@ export const AboutWrapper = styled.div`
   margin-top: 2%;
   overflow-x: hidden;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     margin-top: 4%;
   }
 `;
@@ -38,7 +38,7 @@ export const About1Wrapper = styled.div`
   flex-wrap: wrap;
   padding: 0 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
@@ -51,7 +51,7 @@ export const AboutLeft1Wrapper = styled.div`
     height: auto;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     width: 100%;
     text-align: center;
   }
@@ -70,7 +70,7 @@ export const About1Text = styled.div`
     margin-top: 10%;
     margin-bottom: 5%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-size: 1.8rem;
       text-align: center;
       font-weight: 700;
@@ -85,7 +85,7 @@ export const About1Text = styled.div`
     color: #4a4a4a;
     font-weight: 500;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-weight: 500;
       font-size: 1.2rem;
       text-align: center;
@@ -104,7 +104,7 @@ export const About1Text = styled.div`
     margin-bottom: 5%;
     cursor: pointer;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       width: 80%;
       font-size: 1rem;
       display: block;
@@ -118,7 +118,7 @@ export const AboutVideoWrapper = styled.div`
   justify-content: space-between;
   gap: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
@@ -139,7 +139,7 @@ export const AboutRight1Wrapper = styled.div`
     height: auto;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     img {
       margin-top: 10%;
     }
@@ -155,7 +155,7 @@ export const About2Wrapper = styled.div`
   align-items: center;
   padding: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     padding: 40px 0px;
   }
@@ -167,7 +167,7 @@ export const AboutRight2Wrapper = styled.div`
     height: auto;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     margin-top: 40px;
   }
 `;
@@ -177,7 +177,7 @@ export const AboutCardWrapper = styled.div`
   justify-content: space-between;
   gap: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
@@ -189,7 +189,7 @@ export const AboutLeft2Wrapper = styled.div`
     margin-bottom: 0;
     color: #0094ff;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-size: 2.5rem;
       text-align: center;
     }
@@ -201,7 +201,7 @@ export const AboutLeft2Wrapper = styled.div`
     margin-top: 2%;
     margin-bottom: 10%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-size: 1.2rem;
       text-align: center;
     }
@@ -211,7 +211,7 @@ export const AboutLeft2Wrapper = styled.div`
     font-size: 2rem;
     font-weight: 600;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-size: 1.4rem;
       text-align: center;
     }
@@ -230,7 +230,7 @@ export const AboutCard = styled.div`
   margin-top: 5%;
   padding: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     width: 80%;
     height: 25vh;
     margin: 20px auto;
@@ -240,7 +240,7 @@ export const AboutCard = styled.div`
     font-size: 1.5rem;
     margin-bottom: 0;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-size: 1.2rem;
     }
   }
@@ -256,7 +256,7 @@ export const About3Wrapper = styled.div`
   min-height: 80vh;
   padding: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     min-height: auto;
     padding: 0px;
   }
@@ -270,7 +270,7 @@ export const About3TitleWrapper = styled.div`
     font-size: 3rem;
     font-weight: 700;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       font-size: 1.8rem;
     }
   }
@@ -284,7 +284,13 @@ export const AboutReviewWrapper = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 3%;
-
+  
+  @media only screen and (max-width: 768px) {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  }
+  /* 반응형 추가 */
   img {
     height: 5vh;
   }
@@ -304,7 +310,7 @@ export const AboutReviewBox = styled.div`
     font-weight: 500;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     width: 80%;
     margin: 30px 0;
     padding: 20px;
@@ -336,11 +342,16 @@ export const About3LogoWrapper = styled.div`
 
   div {
     display: flex;
-    gap: 20px;
+    justify-content: center;
     align-items: center;
   }
 
-  @media only screen and (max-width: 600px) {
+    img {
+      width: 12%;
+      margin: 0 20px;
+    }
+
+  @media only screen and (max-width: 768px) {
     img {
       width: 90px;
       height: auto;

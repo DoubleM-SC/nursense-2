@@ -65,7 +65,7 @@ const ModalContent = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     background: white;
     padding: 20px;
     border-radius: 10px;

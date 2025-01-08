@@ -45,7 +45,7 @@ const CurrNameBar2 = styled.div`
   color: #fff;
   display: flex;
   align-items: center;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     width: 100px;
   }
   /* 반응형 추가 */

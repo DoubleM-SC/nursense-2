@@ -24,7 +24,7 @@ const CourseContainer = styled.div`
   padding-top: 10px;
   padding-left: 45px;
   padding-right: 45px;
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 90vw;
     margin-top: 50px;
   }
@@ -39,7 +39,7 @@ const CourseTitle = styled.h2`
   color: #078675;
   padding: 10px 10px;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 20px;
     font-size: 1.5rem;
   }
@@ -68,7 +68,7 @@ const CourseSearch = styled.input`
     font-style: italic;
   }
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 30vw;
   }
 
@@ -97,7 +97,7 @@ const CourseSearchBtn = styled.button`
     margin-right: 1px;
     font-size: 0.8rem;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 8vw;
     font-size: 0.9rem;
   }
@@ -112,7 +112,7 @@ const SearchBar = styled.div`
   display: flex;
   margin: 20px;
   margin-top: 43px;
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     margin: 10px;
   }
 
@@ -176,7 +176,7 @@ const StyledTable = styled(Table)`
     min-width: 1900px;
     margin-left: 700px;
   }
-  @media (max-width: 1600px) {
+  @media (max-width: 1768px) {
     min-width: 1850px;
     margin-left: 680px;
   }
@@ -223,7 +223,7 @@ const TableBodyCell = styled.td<{ width?: string }>`
     transform: scale(1);
     font-size: 9px;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     transform: scale(0.7) !important;
   }
 
@@ -243,7 +243,7 @@ const CourseName = styled.h3`
     color: #484848;
     font-weight: 100;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 15px;
     margin-top: -15px;
     margin-bottom: 0px;
@@ -266,7 +266,7 @@ const LearnerCnt = styled.h3`
     font-weight: 100;
   }
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 15px;
     margin-top: -15px;
     margin-bottom: 0px;

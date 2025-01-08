@@ -20,8 +20,8 @@ const CurrNameBar = styled.div`
   display: flex;
   border-radius: 10px;
   align-items: center;
-  @media only screen and (max-width: 600px) {
-    width: 95%;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
     height: 10vh;
     background: linear-gradient(to right, #078675, rgb(20, 73, 51));
     color: #fff;
@@ -46,8 +46,9 @@ const CurrLearnInfo1 = styled.div`
   border-radius: 15px;
   justify-content: space-between;
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     display: flex;
+    width: 300px;
     align-items: flex-start;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 2rem;

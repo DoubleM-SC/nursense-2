@@ -63,7 +63,7 @@ export const RegistrationForm = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     color: #078675;
     margin: auto;
     width: 100%;
@@ -75,7 +75,7 @@ export const RegistrationForm = styled.div`
   form {
     width: 100%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
     width: 300px;
   }
   }
@@ -91,7 +91,7 @@ export const RegistrationForm = styled.div`
     font-size: 1.1rem;
     margin-bottom: 3%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       display: block;
       border: 1px solid #078675;
       width: 100%;

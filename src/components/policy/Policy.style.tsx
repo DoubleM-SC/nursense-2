@@ -20,7 +20,7 @@ export const PolicyWrapper = styled.div`
   height: 50%;
   overflow: hidden;
   overflow-y: scroll;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     background: #fff;
     padding: 20px;
     /* border-radius: 8px; */

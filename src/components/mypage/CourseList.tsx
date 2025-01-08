@@ -21,7 +21,7 @@ const CourseContainer = styled.div`
   flex-direction: column;
   padding-bottom: 20px;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 90vw;
     margin-top: 50px;
   }
@@ -36,7 +36,7 @@ const CourseTitle = styled.h2`
   color: #078675;
   padding: 10px 40px;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 20px;
     font-size: 1.5rem;
   }
@@ -65,7 +65,7 @@ const CourseSearch = styled.input`
     font-style: italic;
   }
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 30vw;
   }
 
@@ -87,7 +87,7 @@ const CourseSearchBtn = styled.button`
   margin: 2%;
   cursor: pointer;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 8vw;
     font-size: 0.9rem;
   }
@@ -111,7 +111,7 @@ const EnrolmentBtn = styled.button`
   margin: 2%;
   cursor: pointer;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 8vw;
     font-size: 0.9rem;
   }
@@ -126,7 +126,7 @@ const SearchBar = styled.div`
   display: flex;
   margin: 20px;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     margin: 10px;
   }
 
@@ -142,7 +142,7 @@ const TableWrapper = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     overflow-x: auto;
   }
 `;
@@ -193,7 +193,7 @@ const NoEnrollBtn = styled.button`
   border-radius: 7px;
   margin: 2%;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 8vw;
     font-size: 0.9rem;
   }

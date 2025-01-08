@@ -22,7 +22,7 @@ export const LoginWrapper = styled.div`
       outline: none;
       font-size: 1rem;
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 768px) {
         width: 80%;
         border: 1px solid #078675;
         height: 5.5vh;
@@ -51,7 +51,7 @@ export const LoginWrapper = styled.div`
         background-color: #067264;
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 768px) {
         width: 86%;
         height: 5.5vh;
         border: 1px solid #078675;
@@ -75,6 +75,14 @@ export const LoginWrapper = styled.div`
 
 export const LoginLogoWrapper = styled.div`
   text-align: center;
+  img {
+    @media only screen and (max-width: 768px) {
+      margin-top: 50px;
+      width: 50%;
+  }
+  /* 반응형 추가 */
+  }
+
   p {
     margin-top: 50px;
     margin-bottom: 10px;
@@ -88,13 +96,13 @@ export const PasswordWrapper = styled.div`
 export const PasswordToggle = styled.img`
   position: absolute;
   right: 40.3%;
-  top: 50%;
+  top: 43%;
   transform: translateY(-50%);
   cursor: pointer;
   width: 30px;
   height: 25px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     position: absolute;
     right: 12%;
     top: 50%;

@@ -188,7 +188,16 @@ const ContentText = styled.div`
   color: #078675;
   font-size: 1.1rem;
   font-weight: bold;
-
+  @media only screen and (max-width: 768px) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  color: #078675;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 30px;
+  }
+  /* 반응형 추가 */
   span:nth-child(2):hover {
     cursor: pointer;
   }
@@ -199,7 +208,7 @@ const ContentCardWrapper = styled.div`
   justify-content: space-between;
   margin-top: 2%;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
   margin-top: 2%;
   display: contents;
   width: 100%;
@@ -213,7 +222,7 @@ const ContentCard = styled.div`
   box-shadow: 0px 7px 7px 7px rgba(0, 0, 0, 0.1);
   transition: 0.25s;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     margin: auto;
     width: 90%;
     margin-top: 10%;
@@ -237,7 +246,7 @@ const CardInner = styled.div`
   padding: 20px;
   padding-top: 0;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
   padding: 20px;
   }
   /* 반응형 추가 */

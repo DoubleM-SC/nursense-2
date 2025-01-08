@@ -127,9 +127,9 @@ const About: React.FC = () => {
                 </S.AboutCard>
               </S.AboutCardWrapper>
             </S.AboutLeft2Wrapper>
-            <div className="aboutRight2Wrapper">
+            <S.AboutRight2Wrapper>
               <img src={`${process.env.PUBLIC_URL}/img/haptic.png`} alt="img" />
-            </div>
+            </S.AboutRight2Wrapper>
           </S.About2Wrapper>
           <S.About3Wrapper>
             <S.About3TitleWrapper>

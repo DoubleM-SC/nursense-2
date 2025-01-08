@@ -16,7 +16,7 @@ export const SlideWrapper = styled.div`
     height: 45vh;
     object-fit: cover;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
     width: 100vw;
     height: auto;
     object-fit: cover;

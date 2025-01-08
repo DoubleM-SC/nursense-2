@@ -12,7 +12,7 @@ const PopupContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@ const PopupWrapper = styled.div`
   overflow: auto;
   text-align: center;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
   background-color: white;
   border-radius: 8px;
   padding: 40px 20px;

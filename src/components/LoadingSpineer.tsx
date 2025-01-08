@@ -7,7 +7,7 @@ const SpinnerContainer = styled.div`
   align-items: center;
   flex-direction: column;
   margin: 200px;
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     margin: 200px 20px;
   }
 

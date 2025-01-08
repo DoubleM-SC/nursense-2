@@ -12,6 +12,13 @@ body {
   white-space: pre-line;
   min-height: 100vh;
 }
+
+html, body {
+  margin: 0px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")

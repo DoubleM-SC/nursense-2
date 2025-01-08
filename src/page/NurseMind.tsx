@@ -155,7 +155,7 @@ const AiWrapper = styled.div`
   border: 2px solid #078675;
   margin-top: 3%;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     width: 90%;
     height: 100%;
     margin: auto;

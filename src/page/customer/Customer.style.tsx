@@ -46,7 +46,7 @@ export const ContactWrapper = styled.div`
       color: #078675;
       padding-left: 10px;
       
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 768px) {
         display: block;
         width: 80vw;
         height: 4vh;
@@ -78,7 +78,7 @@ export const ContactWrapper = styled.div`
       padding-left: 10px;
       padding-top: 10px;
       
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 768px) {
         display: block;
         width: 80vw;
         height: 20vh;
@@ -109,7 +109,7 @@ export const ContactSubmit = styled.button`
   font-size: 1.2rem;
   transition: 0.3s;
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
   width: 29vw;
   height: 5vh;
   margin-top: 10%;

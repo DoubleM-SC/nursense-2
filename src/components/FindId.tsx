@@ -24,7 +24,7 @@ const FindIdWrapper = styled.div`
   width: 30%;
   height: 23vh;
   text-align: center;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     background: #fff;
     padding: 20px;
     border-radius: 12px;

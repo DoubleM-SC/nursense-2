@@ -13,7 +13,7 @@ export const CourseContainer = styled.div`
   padding-bottom: 20px;
   padding-top: 10px;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 90vw;
     margin-top: 50px;
   }
@@ -28,7 +28,7 @@ export const CourseTitle = styled.h2`
   color: #078675;
   padding: 10px 40px;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 20px;
     font-size: 1.5rem;
   }
@@ -57,7 +57,7 @@ export const CourseSearch = styled.input`
     font-style: italic;
   }
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 30vw;
   }
 
@@ -86,7 +86,7 @@ export const CourseSearchBtn = styled.button`
     margin-right: 1px;
     font-size: 0.8rem;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 8vw;
     font-size: 0.9rem;
   }
@@ -110,7 +110,7 @@ export const EnrolmentBtn = styled.button`
   margin: 2%;
   cursor: pointer;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 8vw;
     font-size: 0.9rem;
   }
@@ -125,7 +125,7 @@ export const SearchBar = styled.div`
   display: flex;
   margin: 20px;
   margin-top: 43px;
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     margin: 10px;
   }
 
@@ -141,7 +141,7 @@ export const TableWrapper = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     overflow-x: auto;
   }
 `;
@@ -196,7 +196,7 @@ export const TableBodyCell = styled.td<{ width?: string }>`
     transform: scale(1);
     font-size: 9px;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     transform: scale(0.7) !important;
   }
 
@@ -216,7 +216,7 @@ export const CourseName = styled.h3`
     color: #484848;
     font-weight: 100;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 15px;
     margin-top: -15px;
     margin-bottom: 0px;
@@ -239,7 +239,7 @@ export const LearnerCnt = styled.h3`
     font-weight: 100;
   }
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     padding: 10px 15px;
     margin-top: -15px;
     margin-bottom: 0px;

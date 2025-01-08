@@ -27,7 +27,7 @@ const ModalContent = styled.div`
   border-radius: 25px;
   width: 25%;
   border: 3px solid #e6e6e6;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     background: white;
     padding: 20px;
     border-radius: 25px;
